@@ -1,0 +1,58 @@
+body{
+	padding-top: 70px;
+	background-color: #353937;
+}
+
+.footer{
+	background-color: #70706F;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+	border-color: #353937;
+	box-shadow: none;
+}
+nav.navbar.navbar-default.navbar-fixed-top > div{
+	background-color: #353937;
+}
+ul.nav.navbar-nav > li.active > *{
+	color: #F2C416;
+	background: #353937;
+	box-shadow: none;
+	
+}
+.navbar-nav>li>a{
+	text-shadow: none;
+	color: #98979B;
+	font-family: raleway-SemiBold;
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li.active > a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background: #353937;
+    color: #F2C416;
+    border-bottom: 1px #F2C416 solid;
+}
+
+@font-face {
+    font-family: bigJohn;
+    src: url('../fonts/big_john.otf') format("opentype");
+}
+
+@font-face {
+    font-family: fjallaOne-Regular;
+    src: url('../fonts/FjallaOne-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: myriadPro-Regular;
+    src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: raleway-Regular;
+    src: url('../fonts/Raleway-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: raleway-SemiBold;
+    src: url('../fonts/Raleway-SemiBold.ttf') format("truetype");
+}
+@font-face {
+    font-family: roboto-Regular;
+    src: url('../fonts/Roboto-Regulat.ttf') format("truetype");
+}
