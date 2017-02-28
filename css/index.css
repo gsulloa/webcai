@@ -2,6 +2,59 @@ body{
 	padding-top: 70px;
 	background-color: #353937;
 }
+
+/************************************
+Navbar
+************************************/
+nav.navbar.navbar-default.navbar-fixed-top {
+	border-color: #353937;
+	box-shadow: none;
+}
+nav.navbar.navbar-default.navbar-fixed-top > div{
+	background-color: #353937;
+}
+ul.nav.navbar-nav > li.active > *{
+	color: #F2C416;
+	background: #353937;
+	box-shadow: none;
+	
+}
+.navbar-nav>li>a{
+	text-shadow: none;
+	color: #98979B;
+	font-family: raleway-SemiBold;
+	font-size: 15px;
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li.active > a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background: #353937;
+    color: #F2C416;
+    border-bottom: 1px #F2C416 solid;
+}
+/************************************
+Body
+************************************/
+.body-title{
+	font-family: bigJohn
+}
+
+.yellow{
+	color: #F2C416;
+}
+	/****
+	Calendario
+	****/
+	table#calendar{
+		
+	}
+	#calendar > tbody > tr > td > .day{
+		margin: 1px;
+		width: 25px;
+		height: 25px;
+		background-color: #B8B6B6;
+	}
+
+
 /************************************
 Footer
 ************************************/
@@ -34,34 +87,7 @@ Footer
 .red-social:hover{
 	color: #98979B;
 }
-/************************************
-Navbar
-************************************/
-nav.navbar.navbar-default.navbar-fixed-top {
-	border-color: #353937;
-	box-shadow: none;
-}
-nav.navbar.navbar-default.navbar-fixed-top > div{
-	background-color: #353937;
-}
-ul.nav.navbar-nav > li.active > *{
-	color: #F2C416;
-	background: #353937;
-	box-shadow: none;
-	
-}
-.navbar-nav>li>a{
-	text-shadow: none;
-	color: #98979B;
-	font-family: raleway-SemiBold;
-	font-size: 15px;
-}
 
-.navbar-default .nav > li > a:hover, .navbar-default .nav > li.active > a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background: #353937;
-    color: #F2C416;
-    border-bottom: 1px #F2C416 solid;
-}
 /************************************
 Fonts
 ************************************/
